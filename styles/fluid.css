@@ -40,11 +40,12 @@ section a {
 .rem {
     background-image: url(../images/fluid02.jpg);
     font-size:1.5rem;
-    border: dotted .3rem white;
+    border: solid white;
 }
 
 .percent {
     background-image: url(../images/fluid04.jpg);
+    border: solid white;
 }
 
 .percent p {
@@ -53,11 +54,12 @@ section a {
 
 .box {
     background-image: url(../images/fluid05.jpg);
+    border: solid white;
 }
 
 .vw {
     background-image:url(../images/fluid06.jpg) ;
-    border: dashed white 0.2vw;
+    border: solid white;
 }
 
 .hero p {
