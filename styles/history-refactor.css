@@ -6,7 +6,7 @@ body {
     font-family: "Namdhinggo", serif;
 }
 
-.hero {
+.history-hero {
     display: flex;
     justify-content: center; /*aligned horizontal*/
     align-items: center; /*aligned vertical*/

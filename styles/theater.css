@@ -42,19 +42,19 @@ article p {
     border-bottom: solid 1px white;
     padding-bottom: 10px;
 }
-main ul {
+.show-info {
     width: 40%;
     padding-inline:10px;
     align-self: flex-end;
 }
-main ul li {
+.show-info li {
     list-style: none;
     padding:10px;
     border: solid white 1px;
     text-align: center;
 }
 nav p:hover,
-main ul li:hover {
+.show-info li:hover {
     background-color: white;
     color: slategray;
 }
