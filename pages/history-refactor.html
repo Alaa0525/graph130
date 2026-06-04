@@ -9,17 +9,42 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&family=Namdhinggo:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link href="../styles/mobile.css" rel="stylesheet">
+<!-- <link href="../styles/mobile.css" rel="stylesheet"> -->
+<link href="../styles/nav.css" rel="stylesheet">
 
 </head>
 <body>
-	    <div id="nav-placeholder"></div>
+	    <!-- <div id="nav-placeholder"></div>
     <script>
         fetch('nav.html')
         .then(response => response.text())
         .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;});
-    </script>
+    </script> -->
+	  <nav class="navbar">
+        <div class="page-title">
+            <p>GRAPH 130</p>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </nav>
+    <nav class="hamish">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="theater.html">Theater Bill</a></li>
+            <li><a href="history-refactor.html">History</a></li>
+            <li><a href="stew-recipe.html">Stew</a></li>
+            <li><a href="cascade.html">Cascades</a></li>
+            <li><a href="orcas.html">Orcas Island</a></li>
+            <li><a href="lopez.html">Lopez Island</a></li>
+        </ul>
+    </nav>
+    <script src="../scripts/mobile-nav.js"></script>
+
+	
 	<section class="history-hero">
 		<h1>a brief history of the internet</h1>
 	</section>
@@ -79,5 +104,6 @@
 <script>
   AOS.init();
 </script>
+	 <script src="../scripts/mobile-nav.js"></script>
 </body>
 </html>
