@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Based Project</title>
+    <style>
+        h1, h2, p {
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/mobile.css">
+</head>
+<body>
+     <div id="nav-placeholder"></div>
+    <script>
+        fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+        });
+    </script>
+    <main>
+        <section>
+            <h1>Grid Based Layout</h1>
+            <p>Graphic and web-designers work in the dimension that can be broken down to the rectangle, be it a page or a screen. This determines the shape of the grid as well. The lines within the grid are customized. Creators can build the grid themselves or rely on ready grid systems, while designers can use the same grid system throughout the whole piece of design, or create a new grid for each page to express their ideas.<a href="https://www.eleken.co/blog-posts/grid-layout-design-history-tips-and-best-examples" target="_blank">eleken.co</a></p>
+        </section>
+        <section class="pure-g">
+            <article class="pure-u-1-3">
+                <h2>Day Signs</h2>
+                <p><i>TIANYI</i></p>
+                    <p>Fishermen along the pier shuck a bucket of oysters.<br>
+                    It's the first thing they'll eat today, the fruit of splitting,<br>
+                    which resembles the desire to hold shape:<br>
+                    I remember facing<br>
+                    the awning's half-shade, the rain just stopped.<br>
+                    In the window I am a thin boy,<br>
+                    reflection is enough<br>
+                    to see through me: One ear smaller than the other,<br>
+                    light gauze keeping my head in place.<br>
+                    Isn't this how change goes?<br>
+                    One tense moves to another. I pull grass from the ground<br>
+                    and the rest stays green.<br>
+                    This morning<br>
+                    the port was warm. But even then, muscadine, painfully blue-<br>
+                    feigned like a version of my past:<br>
+                    I laid down,<br>
+                    the brittle came off. Nine swarms passed<br>
+                    just before the storm. Fen ahead, the fronds bending west,<br>
+                    how far,<br>
+                    honestly,<br>
+                    what birds-</p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>The Secret</h2>
+                <p><i>Anna Girgenti</i></p>
+                    <p>There is an island in Utah<br>
+                    yes, an island  from which I stole<br>
+                    a small stone.<br>
+                    I am telling you this because<br>
+                    it is not magic.<br>
+                    It was a bright day in April<br>
+                    and I had driven across three states.<br>
+                    In the grass, a single antelope<br>
+                    unmoving. Every animal tends<br>
+                    an instinct to trust.<br>
+                    Between my fingers,<br>
+                    a sliver of light, silver and warm.<br>
+                    No, it is not magic <br>
+                    it is the sky which grows to fill<br>
+                    an empty lake, a bed of salt.<br>
+                    Under my head, the softest hill<br>
+                    to ever live. Yes, live.</p>
+            </article>
+            <article class="pure-u-1-3">
+                <h2>Spring</h2>
+                <p><i>Sharon Lin</i></p>
+                    <p>Once I ran across 		a long green field.<br>
+                        <p>Inevitably lost 		the end to<br>
+                        that memory.			Nothing left<br>
+                        except 			increments.<br>
+                        Sunlight. Images 		faded, stuck<br>
+                        in place. That time		I couldn't recall<br>
+                        my sisters			names or birthdays.<br>
+                        We cut blue and white	cakes in slivers<br>
+                        balanced			on small plates. Good<br>
+                        on spring to return		our memories back<br>
+                        to cycles and gods.		Mine is<br>
+                        a bowl of porridge 		stirring.<br>
+                        My gods take			slower offerings.<br>
+                        Smaller			returns. They always have<br>
+                        work to do			this way.<br>
+                        One breaks into a song	chapels<br>
+                        voices into			light. Hands.<br>
+                        Flesh and blood.		I greet<br>
+                        a woman, ask 		a child<br>
+                        what she is running from 	and if she believes<br>
+                        the promise			in every spring<br>
+                        returning.			She smiles.</p>
+            </article>
+        </section>
+        <section class="pure-g">
+            <img src="../images/day.jpg" class="pure-u-1-4" alt="fishing image">
+            <img src="../images/secrets.jpg" class="pure-u-1-4" alt="leaves image">
+            <img src="../images/deer.jpg" class="pure-u-1-4" alt="deer image">
+            <img src="../images/spring.jpg" class="pure-u-1-4" alt="flower field image">
+        </section>
+        <section>
+            <p>EvCC | Spring 2026 | Alaa Alzayadi</p>
+        </section>
+    </main>
+</body>
+</html>
